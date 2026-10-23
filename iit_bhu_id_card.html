@@ -339,7 +339,7 @@ body {
 .footer-section {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: baseline;
     position: relative;
     z-index: 3;
     padding-left: 20px;
@@ -357,25 +357,29 @@ body {
     color: #913b6c;
     letter-spacing: 0.2px;
     font-family: "Times New Roman", Times, serif;
-    margin-top: 2px;
+    margin-top: 0px;
 }
 
 .authority-sign-block {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 
 .authority-sign-svg {
-    height: 25px;
-    width: 95px;
+    position: absolute;
+    bottom: 100%;
+    margin-bottom: 0px;
+    height: 30px;
+    width: 105px;
 }
 
 .authority-title {
-    font-size: 13.5px;
-    font-weight: 400;
+    font-size: 14px;
+    font-weight: 700;
     color: #111827;
-    letter-spacing: 0.1px;
+    letter-spacing: 0.2px;
     font-family: "Times New Roman", Times, serif;
 }
 
@@ -576,10 +580,10 @@ body {
                 <!-- Authentic Dean Academic Affairs Signature in Fluid Blue Ink (D. Singh) -->
                 <svg class="authority-sign-svg" viewBox="0 0 110 35" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <!-- D. -->
-                    <path d="M 14,16 C 11,23 15,26 19,26 C 25,26 27,15 19,14 C 15,14 13,18 13,24" stroke="#1d3557" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-                    <circle cx="28" cy="25" r="1.2" fill="#1d3557"/>
+                    <path d="M 14,16 C 11,23 15,26 19,26 C 25,26 27,15 19,14 C 15,14 13,18 13,24" stroke="#1d3557" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <circle cx="28" cy="25" r="1.3" fill="#1d3557"/>
                     <!-- Singh and underline -->
-                    <path d="M 36,18 C 33,19 34,23 38,22 C 42,21 44,24 48,23 C 51,21 54,24 58,23 C 60,18 62,5 62,4 C 62,16 63,25 67,25 L 102,23" stroke="#1d3557" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M 36,18 C 33,19 34,23 38,22 C 42,21 44,24 48,23 C 51,21 54,24 58,23 C 60,18 62,5 62,4 C 62,16 63,25 67,25 L 102,23" stroke="#1d3557" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
                 <div class="authority-title" contenteditable="true">
                     Dean Academic Affairs
